@@ -411,6 +411,7 @@ const SYSTEM_PATHS = [
   'calibrate.mjs',
   'upskill.mjs',
   'skill-extract.mjs',
+  'market-skills.mjs',
   'intake.mjs',
   'stats.mjs',
   'funnel-stages.mjs',
@@ -4768,3 +4769,4 @@ if (isCli) {
     process.exit(1);
   }
 }
+
