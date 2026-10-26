@@ -1,0 +1,29 @@
+{
+  "boards": [
+    {"provider":"greenhouse","board":"sample-india","name":"Sample India"},
+    {"provider":"lever","board":"sample-us","name":"Sample US"},
+    {"provider":"ashby","board":"sample-global","name":"Sample Global"}
+  ],
+  "responses": {
+    "https://boards-api.greenhouse.io/v1/boards/sample-india/jobs?content=true": {
+      "jobs": [
+        {"id":101,"title":"Graduate Data Analyst","absolute_url":"https://boards.greenhouse.io/sample-india/jobs/101?utm_source=demo","location":{"name":"Bengaluru, India"},"content":"<p>0-1 years of experience. Python, SQL, PostgreSQL and Python.</p>","first_published":"2026-10-20T08:00:00Z"},
+        {"id":101,"title":"Graduate Data Analyst","absolute_url":"https://boards.greenhouse.io/sample-india/jobs/101","location":{"name":"Bengaluru, India"},"content":"<p>0-1 years of experience. Python, SQL, PostgreSQL and Python.</p>","first_published":"2026-10-20T08:00:00Z"},
+        {"id":102,"title":"Data Engineer","absolute_url":"https://boards.greenhouse.io/sample-india/jobs/102","location":{"name":"Pune, India"},"content":"<p>3+ years of experience. Python, Kafka, dbt, Snowflake.</p>","first_published":"2026-10-21T08:00:00Z"},
+        {"id":103,"title":"Junior Engineer","absolute_url":"https://boards.greenhouse.io/sample-india/jobs/103","location":{"name":"Cambridge"},"content":"<p>Python and Docker.</p>"}
+      ]
+    },
+    "https://api.lever.co/v0/postings/sample-us": [
+      {"id":"us-1","text":"Graduate Engineer","hostedUrl":"https://jobs.lever.co/sample-us/us-1","categories":{"location":"New York, United States"},"descriptionPlain":"No prior experience required. Python.","lists":[{"text":"Skills","content":"<li>SQL and Amazon Web Services</li>"}],"createdAt":1792540800000},
+      {"id":"us-2","text":"Senior Data Engineer","hostedUrl":"https://jobs.lever.co/sample-us/us-2","categories":{"location":"Remote, USA"},"descriptionPlain":"5 years of experience. AWS and Kubernetes.","createdAt":1792627200000},
+      {"id":"us-3","text":"Analyst","hostedUrl":"https://jobs.lever.co/sample-us/us-3","categories":{"location":"Remote"},"descriptionPlain":"2 years of experience preferred. SQL."}
+    ],
+    "https://api.ashbyhq.com/posting-api/job-board/sample-global?includeCompensation=true": {
+      "jobs":[
+        {"id":"global-1","title":"Engineer","jobUrl":"https://jobs.ashbyhq.com/sample-global/global-1","location":"India; United States","descriptionPlain":"2 years of experience. Python and Postgres.","publishedAt":"2026-10-23T00:00:00Z"},
+        {"id":"global-2","title":"Engineer","jobUrl":"https://jobs.ashbyhq.com/sample-global/global-2","location":"United States","descriptionPlain":"","publishedAt":"2026-10-24T00:00:00Z"},
+        {"id":"global-3","title":"Graduate Engineer","jobUrl":"https://jobs.ashbyhq.com/sample-global/global-3","location":"India","descriptionPlain":"Freshers welcome. SQL and Python.","publishedAt":"2026-09-01T00:00:00Z"}
+      ]
+    }
+  }
+}
